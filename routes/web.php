@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 
 Route::post('/upload', 'uploadController@upload');
+Route::view('/admin', 'admin');
 // Route::get('/', 'HomeController@index');
